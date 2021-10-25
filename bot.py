@@ -16,7 +16,7 @@ from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin
 
 api_hash = os.environ.get("API_HASH")
 
-token = os.environ.get("BOT_TOKEN")
+token = os.environ.get("2083857279:AAFS0xWzrj8OExaOJjetO0L93EV1k5G5hLg")
 
 client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
 
